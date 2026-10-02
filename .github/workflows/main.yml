@@ -1,0 +1,16 @@
+name: Disable workflow
+
+on:
+  push:
+    branches: [ main ]
+
+
+job:
+  disable: 
+       run-on : ubuntu-styles
+
+       steps:
+         - name : Aashutosh
+           echo: "Disable Workflow done by aashu"
+
+   
